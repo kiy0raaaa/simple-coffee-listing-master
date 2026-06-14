@@ -6,9 +6,9 @@
 
 <div align="center">
   <h3>
-    <a href="{your-demo-link}">Demo</a>
+    <a href="https://simple-coffee-listing-master-kappa.vercel.app/">Demo</a>
     <span> | </span>
-    <a href="{your-solution-link}">Solution</a>
+    <a href="https://github.com/kiy0raaaa/simple-coffee-listing-master.git">Solution</a>
     <span> | </span>
     <a href="https://devchallenges.io/challenge/simple-coffee-listing">Challenge</a>
   </h3>
