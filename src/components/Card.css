@@ -1,0 +1,86 @@
+.item {
+  color: #FEF7EE;
+}
+
+.coffee-img-wrap {
+  position: relative;
+}
+
+.coffee-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 12px;
+  display: block;
+}
+
+.badge-popular {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #F6C768;
+  color: #2a1f00;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+
+.menu {
+  margin-top: 0.5rem;
+}
+
+.menu-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+}
+
+.menu-top h2 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #FEF7EE;
+  line-height: 1.3;
+}
+
+.price {
+  background: #BEE3CC;
+  color: #1a3d29;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 6px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  align-self: flex-start;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 6px;
+}
+
+.rating-score {
+  font-size: 14px;
+  font-weight: 600;
+  color: #FEF7EE;
+}
+
+.votes {
+  font-size: 13px;
+  color: #4D5562;
+  font-weight: 400;
+}
+
+.sold-out {
+  color: #ED735D;
+  font-weight: 700;
+  font-size: 13px;
+  margin-left: auto;
+}

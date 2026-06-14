@@ -94,7 +94,7 @@ button.active {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
-    margin: 20px 80px 20px 80px;
+    margin: 15px 80px 15px 80px;
     justify-content: center;
     color: #FEF7EE;
 }

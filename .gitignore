@@ -1,8 +1,8 @@
+node_modules
+dist
+.env
 *.env
-
 *.fig
 *.xd
-
 .DS_Store
 .prettierignore
-

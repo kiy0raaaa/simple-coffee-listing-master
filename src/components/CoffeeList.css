@@ -1,0 +1,28 @@
+.catalog {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.status-msg {
+  text-align: center;
+  color: #6F757C;
+  padding: 3rem;
+  font-size: 15px;
+}
+
+.status-msg.error {
+  color: #ED735D;
+}
+
+@media screen and (max-width: 900px) {
+  .catalog {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .catalog {
+    grid-template-columns: 1fr;
+  }
+}
