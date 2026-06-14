@@ -40,9 +40,9 @@ function App() {
         </div>
 
         <CoffeeList coffees={displayed} />
-        
+
         <div className="author-info">
-          Coded by <a href="#">Kiara Aisha Putri</a> | Challenge by{' '}
+          Coded by <a href="https://github.com/kiy0raaaa">Kiara Aisha Putri</a> | Challenge by{' '}
           <a
             href="https://www.devchallenges.io?ref=challenge"
             target="_blank"
