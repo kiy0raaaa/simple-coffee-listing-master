@@ -18,9 +18,7 @@ nav {
   padding: 4rem;
   background-color: #1B1D1F;
   background-image: url('../public/vector.svg');
-  background-repeat: no-repeat;
-  background-position: top right;
-  border-radius: 24px;
+  background-repeat: no-repeat;  border-radius: 24px;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
