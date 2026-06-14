@@ -12,7 +12,7 @@
     {
         "id": 2,
         "name": "House Coffee",
-        "image": "/house coffee.jpg",
+        "image": "/house-coffee.jpg",
         "price": "$3.50",
         "rating": 4.85,
         "votes": 14,
