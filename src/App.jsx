@@ -1,28 +1,11 @@
-import { useState, useEffect } from 'react'
+import coffeeData from './data.json'
+import { useState } from 'react'
 import CoffeeList from './components/CoffeeList'
 import './App.css'
 
-const API_URL =
-  'https://raw.githubusercontent.com/devchallenges-io/curriculum/refs/heads/main/4-frontend-libaries/challenges/group_1/data/simple-coffee-listing-data.json'
-
 function App() {
-  const [coffees, setCoffees] = useState([])
+  const [coffees] = useState(coffeeData)  // hapus setCoffees, tidak dipakai
   const [filter, setFilter] = useState('all')
-  const [loading, setLoading] = useState(true)
-  const [error, setError] = useState(false)
-
-  useEffect(() => {
-    fetch(API_URL)
-      .then((r) => r.json())
-      .then((data) => {
-        setCoffees(data)
-        setLoading(false)
-      })
-      .catch(() => {
-        setError(true)
-        setLoading(false)
-      })
-  }, [])
 
   const displayed =
     filter === 'available' ? coffees.filter((c) => c.available) : coffees
@@ -30,9 +13,8 @@ function App() {
   return (
     <>
       <nav>
-        <img className="bg" src="../public/bg-cafe.jpg" alt="Coffee shop background"/>
+        <img className="bg" src="/bg-cafe.jpg" alt="Coffee shop background" />
       </nav>
-
       <section className="content">
         <div className="header">
           <h1>Our Collection</h1>
@@ -57,8 +39,8 @@ function App() {
           </div>
         </div>
 
-        <CoffeeList coffees={displayed} loading={loading} error={error} />
-
+        <CoffeeList coffees={displayed} />
+        
         <div className="author-info">
           Coded by <a href="#">Kiara Aisha Putri</a> | Challenge by{' '}
           <a
@@ -73,5 +55,4 @@ function App() {
     </>
   )
 }
-
 export default App
