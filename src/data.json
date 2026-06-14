@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Cappuccino",
-        "image": "../public/cappuccino.jpg",
+        "image": "/cappuccino.jpg",
         "price": "$5.20",
         "rating": 4.7,
         "votes": 65,
@@ -12,7 +12,7 @@
     {
         "id": 2,
         "name": "House Coffee",
-        "image": "../public/house coffee.jpg",
+        "image": "/house coffee.jpg",
         "price": "$3.50",
         "rating": 4.85,
         "votes": 14,
@@ -22,7 +22,7 @@
     {
         "id": 3,
         "name": "Espresso",
-        "image": "../public/espresso.jpg",
+        "image": "/espresso.jpg",
         "price": "$2.50",
         "rating": 4.9,
         "votes": 55,
@@ -32,7 +32,7 @@
     {
         "id": 4,
         "name": "Coffee Latte",
-        "image": "../public/latte.jpg",
+        "image": "/latte.jpg",
         "price": "$4.50",
         "rating": 5,
         "votes": 23,
@@ -42,7 +42,7 @@
     {
         "id": 5,
         "name": "Chocolatte Coffee",
-        "image": "../public/chocolatte.jpg",
+        "image": "/chocolatte.jpg",
         "price": "$4.00",
         "rating": 4.65,
         "votes": 122,
@@ -52,7 +52,7 @@
     {
         "id": 6,
         "name": "Valentine Special",
-        "image": "../public/valentine.jpg",
+        "image": "/valentine.jpg",
         "price": "$5.50",
         "rating": false,
         "votes": false,
